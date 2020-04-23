@@ -1,0 +1,29 @@
+Protractor?
+-It is opensource end to end testing framework
+-used primarily for angular based applications
+-built by google on the top of webdriver
+-Also works as a solution integrator that combines the powerful technologies like
+Nodejs, selenium, jasmine, webdriver, cucumber, mocha etc..
+- Also helps in writing the e2e regression test cases for webbased applications
+
+
+Stepwise working of protractor
+1. Write the testcases - Take help of jasmine
+2. Run the testcases using test runner - protractor
+3. selenium server will help to manage the browsers
+4. Browser Apis to be invoked with the help of selenium webdriver
+
+Advantages
+- free, easy to install and setup
+- Easy to create test
+- supports TDD
+- contains automatic waits which means we do not need to explicity add waits and sleeps to our tests
+- Offers all the advantages of selenium web driver
+- supports parallel testing through multiple browsers
+- Hase excellent testing speed
+
+
+Disadvantages
+- Knowledge of javascript is essential for the users, because it is only available for javascript
+- It only test the front-end because it is UI driven testing tool
+
